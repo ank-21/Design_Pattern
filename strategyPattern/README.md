@@ -5,6 +5,7 @@ This project demonstrates the use of the Strategy Pattern in Java. The strategy 
 ## Project Structure
 
 The project is organized as follows:
+
 Strategy_Pattern/<br>
 |-- Client.java [Main Class]<br>
 |-- Vehicle.java [Parent Class]<br>
