@@ -2,6 +2,10 @@ public class Circle implements Shape{
 
     private String colour;
 
+    public String getColour() {
+        return colour;
+    }
+
     public Circle(String colour){
         this.colour = colour;
     }
@@ -13,6 +17,7 @@ public class Circle implements Shape{
 
     @Override
     public void draw(){
+        this.colour = "green";
         System.out.println("Drawing a " + colour + " colour Circle");
     }
 }
