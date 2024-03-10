@@ -1,6 +1,7 @@
 import java.util.List;
 
 public class BookIterator implements Iterator{
+    //Same we can do for other iterator
     private List<Book> bookList;
     int index = 0;
 
