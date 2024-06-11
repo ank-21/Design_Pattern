@@ -8,6 +8,7 @@ public class ErrorLogProcessor extends LogProcessor{
         if(logLevel == ERROR){
             System.out.println("ERROR: " + msg);
         }else{
+            System.out.println("checkpoint 3");
             super.Log(logLevel, msg);
         }
     }

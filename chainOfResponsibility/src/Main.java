@@ -10,7 +10,7 @@ public class Main {
         LogProcessor logObject = new InfoLogProcessor(new DebugLogProcessor(new ErrorLogProcessor(null)));
 
         logObject.Log(LogProcessor.ERROR, "exception happens!");
-        logObject.Log(LogProcessor.DEBUG, "need to debug this!");
-        logObject.Log(LogProcessor.INFO, "just for info!");
+        //logObject.Log(LogProcessor.DEBUG, "need to debug this!");
+        //logObject.Log(LogProcessor.INFO, "just for info!");
     }
 }

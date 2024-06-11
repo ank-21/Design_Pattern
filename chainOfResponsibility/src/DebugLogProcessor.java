@@ -8,6 +8,7 @@ public class DebugLogProcessor extends LogProcessor{
         if(logLevel == DEBUG){
             System.out.println("DEBUG: " + msg);
         }else{
+            System.out.println("checkpoint 2");
             super.Log(logLevel, msg);
         }
     }

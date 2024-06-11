@@ -10,6 +10,7 @@ public class InfoLogProcessor extends LogProcessor{
             System.out.println("INFO: " + msg);
         }else{
             //Goes to LogProcessor in all cases of chaining
+            System.out.println("checkpoint 1");
             super.Log(logLevel, msg);
         }
     }
