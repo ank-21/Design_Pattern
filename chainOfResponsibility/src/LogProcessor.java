@@ -17,6 +17,8 @@ public class LogProcessor {
         if(nextLogProcessor != null){
             System.out.println("next" + nextLogProcessor.toString());
             nextLogProcessor.Log(logLevel, msg);
+        }else{
+            System.out.println("Wrong level");
         }
     }
 }
